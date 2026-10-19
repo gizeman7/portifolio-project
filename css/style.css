@@ -40,19 +40,27 @@ nav{
     color: #ff6347;
 }
 .home {
-    min-height: 85vh;
+    min-height: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
-    padding: 50px 8%;
+    gap: 30px;
+    padding: 100px 8% 30px;
 
 }
 .home-content{
-    max-width: #38bdf8;
+    max-width: 600px;
+}
+.greeting {
+    color: #38bdf8;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 .home-content h1 {
-font-size: clamp(32px, 5vw, 52px);
+font-size: clamp(28px, 4vw, 48px);
 margin-bottom: 15px;
 }
 .home-content h2 {
@@ -60,9 +68,16 @@ margin-bottom: 15px;
     font-size: 25px;
     margin-bottom: 30px;
 }
+.description{
+    color: #94a3b8;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
 .home-image imag {
-    width: 300px;
-    height: 350px;
+    width: min(300px, 30px);
+    max-width: 60vh;
+    height: auto;
     object-fit: cover;
     border-radius: 20px;
     border: 3px solid #38bdf8;
