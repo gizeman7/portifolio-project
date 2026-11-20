@@ -244,3 +244,19 @@ margin-bottom: 15px;
 .project-links .btn-outline:hover {
     background-color: #e0f2fe;
 }
+.contact{
+    padding: 50px 20px;
+    background-color: #fff;
+}
+.contact h2 {
+text-align: center;
+font-size: 2rem;
+margin-bottom: 20px;
+}
+#contact-form {
+max-width: 600px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
